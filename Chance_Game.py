@@ -26,3 +26,12 @@ def welcome ():
           1. Coin Toss
           2. Dice Roll
           3. Hight Card""")
+        
+# First game
+def coin_toss(account):
+    print(f"""This game is simple, a 50/50 choice between "Heads" or "Tails". 
+If you choose correctly you will win 85% of what you stake (The House Always Wins!), 
+however, if you lose, you will lose the full bet!. Good Luck!""")
+    
+    if account > 0: 
+        
