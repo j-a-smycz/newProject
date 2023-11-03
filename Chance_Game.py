@@ -9,7 +9,7 @@ def welcome ():
           0. Exit
           1. Coin Toss
           2. Dice Roll
-          3. Hight Card""")
+          3. High Card""")
     game_choice = input(">   ")
     if game_choice == "0":
         exit
